@@ -1,0 +1,61 @@
+body {
+	background:url(image/black_denim.png) repeat;
+}
+#space {
+	height:50px;
+}
+#wrapper {
+	width:900px;
+	height:auto;
+	margin:0 auto;
+}
+#header {
+	width:100%;
+	height:30px;
+	padding-top:20px;
+	background:rgba(255, 255, 255, .8);
+	box-shadow:1px 2px 3px rgba(255, 255, 255, .9);
+}
+#header .text {
+	width:300px;
+	font:14pt;
+	font-family:fantasy;
+	margin:0 auto;
+	color:#000000;
+	text-transform:capitalize;
+}
+#img {
+	width:200px;
+	height:200px;
+	border-radius:50%;	
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	-o-border-radius:50%;
+	background:rgba(255, 255, 255, .7);
+	padding:5px 5px;
+	margin:5px 5px;
+	position:relative;
+	float:left;
+	-webkit-transition: all 3s ease-in-out;
+	-moz-transition: all 3s ease-in-out;
+	-o-transition: all 3s ease-in-out;
+	transition: all 3s ease-in-out;
+}
+#img:hover {
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-transition: all 3s ease-in-out;
+	-moz-transition: all 3s ease-in-out;
+	-o-transition: all 3s ease-in-out;
+	transition: all 3s ease-in-out;
+}
+#footer {
+	width:300px;
+	height:auto;
+	margin:0 auto;
+	font:12pt;
+	text-transform:uppercase;
+	color:rgba(255,255,255,.7);
+}
